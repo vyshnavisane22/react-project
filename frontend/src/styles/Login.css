@@ -1,0 +1,139 @@
+/* ===== LOGIN ONLY ===== */
+.login-wrapper,
+.login-wrapper * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* ===== LOGIN BACKGROUND ===== */
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg,#141e30,#243b55);
+
+  padding: 90px 0 40px; /* space for navbar */
+}
+
+/* ===== LOGIN CARD ===== */
+.login-wrapper .login-container {
+  width: 360px;
+  padding: 25px;
+
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(15px);
+
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.2);
+
+  color: white;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+/* ===== HEADINGS ===== */
+.login-wrapper .login-container h2 {
+  margin-bottom: 5px;
+}
+
+.login-wrapper .login-subtitle {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* ===== FORM ===== */
+.login-wrapper .form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.login-wrapper .form-group label {
+  color: #ddd;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* ===== INPUT ===== */
+.login-wrapper .form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background:white;
+  color: #333;
+}
+
+/* ===== PASSWORD ===== */
+.login-wrapper .password-box {
+  position: relative;
+  width: 100%;
+}
+
+.login-wrapper .password-box input {
+  padding-right: 60px;
+}
+
+/* ===== SHOW BUTTON ===== */
+.login-wrapper .show-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #00f2fe;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ===== OPTIONS ===== */
+.login-wrapper .login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.login-wrapper .login-options a {
+  color: #00f2fe;
+  text-decoration: none;
+}
+
+/* ===== BUTTON ===== */
+.login-wrapper .login-btn {
+  width: 100%;
+  padding: 8px;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-wrapper .login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== REGISTER ===== */
+.login-wrapper .register-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.login-wrapper .register-text a {
+  color: #00f2fe;
+  text-decoration: none;
+  font-weight: 600;
+}
